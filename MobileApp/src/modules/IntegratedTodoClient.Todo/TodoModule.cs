@@ -3,6 +3,7 @@ using IntegratedTodoClient.Todo.Resources;
 using Prism.Ioc;
 using Prism.Modularity;
 using Xamarin.Forms.Xaml;
+using IntegratedTodoClient.Todo.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace IntegratedTodoClient.Todo

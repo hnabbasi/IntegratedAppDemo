@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using IntegratedTodoClient.Models;
 using IntegratedTodoClient.Services;
 using IntegratedTodoClient.Todo.Resources;
+using IntegratedTodoClient.ViewModels;
 using Microsoft.AppCenter;
 using Prism.Commands;
 using Prism.Logging;

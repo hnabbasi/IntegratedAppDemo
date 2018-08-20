@@ -266,3 +266,4 @@ AndroidManifest.xml
 Info.plist
 
 PublishProfiles/
+Secrets.cs

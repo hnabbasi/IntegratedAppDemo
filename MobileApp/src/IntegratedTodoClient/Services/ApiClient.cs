@@ -62,9 +62,9 @@ namespace IntegratedTodoClient.Services
             return result != null;
         }
 
-        private async Task<AuthenticationResult> SilentLoginAsync()
+        private Task<AuthenticationResult> SilentLoginAsync()
         {
-            return await _pca.AcquireTokenSilentAsync(App.Scopes, GetUserByPolicy(_pca.Users, App.PolicySignUpSignIn), App.Authority, false);
+            return _pca.AcquireTokenSilentAsync(App.Scopes, GetUserByPolicy(_pca.Users, App.PolicySignUpSignIn), App.Authority, false);
         }
 
         private async Task<HttpClient> CreateClientAsync()

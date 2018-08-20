@@ -5,6 +5,7 @@ using IntegratedTodoClient.Services;
 using IntegratedTodoClient.Models;
 using Prism.Commands;
 using Prism.Logging;
+using IntegratedTodoClient.ViewModels;
 
 namespace IntegratedTodoClient.Todo.ViewModels
 {

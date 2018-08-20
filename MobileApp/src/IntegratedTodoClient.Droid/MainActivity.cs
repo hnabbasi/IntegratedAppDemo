@@ -26,6 +26,7 @@ namespace IntegratedTodoClient.Droid
 
             global::Xamarin.Forms.Forms.SetFlags("FastRenderers_Experimental");
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            Rg.Plugins.Popup.Popup.Init(this, savedInstanceState);
 
             LoadApplication(new App(new AndroidInitializer()));
         }

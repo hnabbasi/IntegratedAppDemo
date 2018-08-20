@@ -2,7 +2,6 @@
 using System.Threading.Tasks;
 using IntegratedTodoClient.Resources;
 using IntegratedTodoClient.Services;
-using IntegratedTodoClient.Views;
 using Plugin.Multilingual;
 using Prism;
 using Prism.Ioc;
@@ -22,6 +21,8 @@ using Xamarin.Forms;
 using DebugLogger = IntegratedTodoClient.Services.DebugLogger;
 using Prism.Services;
 using Microsoft.Identity.Client;
+using IntegratedTodoClient.Todo.Views;
+using IntegratedTodoClient.Identity.Views;
 
 namespace IntegratedTodoClient
 {
